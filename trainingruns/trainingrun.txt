@@ -1,0 +1,53 @@
+First run  175
+1 hidden nodropout , accuracy 95.7% - F1Score - 
+False Positives: 2/1000  Missed Collisions 1/1000
+epoch 200
+
+Second run  170
+2 hidden nodropout , accuracy 93.7% - F1Score 
+False Positives: 6/1000  Missed Collisions 6/1000
+epoch - 30
+
+Third run  161
+2 hidden dropout0.3 , accuracy 96.7%, F1Score - 
+False Positives: 12/1000  Missed Collisions 7/1000
+epoch - 100
+
+Fourth run 175
+1 hidden nodropout , accuracy 95.6% F1score 85.58
+epoch 150
+False Positives: 4/1000  Missed Collisions 2/1000
+
+Fifth run - 175 - False Positives: 1/1000  Missed Collisions 3/1000
+1 hidden nodropout , accuracy 95.6% F1score 85.53
+
+Sixth run - 175 - False Positives: 2/1000  Missed Collisions 1/1000
+learning rate .01 batchsize 16
+1 hidden nodropout , accuracy 97.6%, F1score  90.89660048484802
+
+Seventh run - 175 - False Positives: 0/1000  Missed Collisions 1/1000
+learning rate .01 batch size 8
+1 hidden nodropout , accuracy 97.6%, F1score  91.25 test loss - 0.057517 
+
+Eighth run - 175 - False Positives: 1/1000  Missed Collisions 1/1000
+kfold3 - learning rate .01 batch size 8
+1 hidden nodropout , accuracy 97.7%, F1score  91.38, Loss - 0.037489
+
+Seventh run - 175 - False Positives: 3/1000  Missed Collisions 5/1000
+learning rate .01 batch size 8 loss cuttoff = 0.5
+1 hidden nodropout , accuracy 97.7%, F1score  91.87 loss = 0.05
+
+
+Latest run - False Positives: 0/1000  Missed Collisions 0/1000
+learning rate .01 batch size 8
+1 hidden nodropout , accuracy 97.6%, F1score  91.25 test loss - 0.0052
+
+
+
+
+
+
+
+
+
+
